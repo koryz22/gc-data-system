@@ -1,0 +1,171 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(232, 230, 230);
+}
+
+.antAlert {
+  left: 36%;
+  top: 2.2%;
+  width: 28%;
+  height: 0.1%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.SideNavBar {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(84, 92, 100, 1);
+}
+
+.SideNavBarList {
+  height: auto;
+  width: 100%;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.SideNavBarList .row {
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.SideNavBarList #active {
+  background-color: rgba(255, 141, 26, 1);
+}
+
+.SideNavBarList .row:hover {
+  background-color: rgba(255, 141, 26, 1);
+  color: rgba(84, 92, 100, 1);
+}
+
+.DataSourceSection {
+  height: 100vh;
+}
+
+.DataSourceSection .DataList {
+  width: 80%;
+  height: 90vh;
+  border: 1px solid rgba(255,255,255,.5);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+}
+
+.NewDataSourceSection {
+  height: 100vh;
+}
+
+.NewDataSourceSection .NewDataSourceFormArea {
+  width: 91%;
+  height: 90vh;
+  border: 1px solid rgba(255,255,255,.5);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  background-color: white;
+}
+
+.AddEntry {
+  margin: 5% 5%;
+  width: 90%;
+  height: 50px;
+  position: relative;
+  margin-left: 6.5%;
+}
+
+#AddEntryTitle {
+  float: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 3.5%;
+}
+
+#AddEntryButton {
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+#CreateTaskButton {
+  float: right;
+  background-color: transparent;
+  font-size: 14px;
+  margin-right: 11%;
+  bottom: 1%;
+}
+
+#DotsButton {
+  float: right;
+  background-color: transparent;
+  font-size: 14px;
+  left: 18%;
+  bottom: 2%;
+  z-index: -1;
+}
+
+#TaskHeader {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 3%;
+}
+
+#TaskHeaderName {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.navBarIcon {
+  margin-top: 5px;
+}
+
+hr.solid {
+  border: 1px solid rgba(166, 166, 166, 1);         
+  position: absolute;
+  margin-top: 45px;
+  width: 95%;
+}
+
+hr.taskHR {
+  border: 1px solid rgba(166, 166, 166, 1);         
+  margin-top: -6.5px;
+  position: absolute;
+  width: 95%;
+}
+
+.DSForm {
+  margin: 3% 0 0 4%;
+}
+
+.successAlert {
+  position: absolute;
+  width: 500px;
+  left: 33%;
+}
+
+.ant-table table { 
+  font-size: 10px; 
+}
+
+.greenColor {
+  color: green;
+}
