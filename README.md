@@ -17,7 +17,7 @@ The "Gausscode Data System" project was not an easy journey. Along the road, I e
 3. Efficient coding and keeping an organized workspace
 4. Using React props and hooks
 
-These were only a few of the obstacles I had to overcome. But, powering through this project helped me learn a lot about general web development, ReactJS, HTML, and CSS. I was also able to becoming more comfortable with reading documentations, tracking progress with git, study standard React practices (ex: constructing specific components), page routing, and how to use hooks to create a responsive webpage for the first time. 
+These were only a few of the obstacles I had to overcome. But, powering through this project helped me learn a lot about general web development, ReactJS, HTML, and CSS. I was also able to become more comfortable with reading documentations, tracking progress with git, study standard React practices (ex: constructing specific components), page routing, and how to use hooks to create a responsive webpage for the first time. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
